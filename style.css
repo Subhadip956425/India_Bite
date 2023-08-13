@@ -81,6 +81,53 @@ font-family: 'Roboto Slab', serif;
     width: 600px;
 }
 
+/*Search Bar*/
+
+.nav-middle .mic-icon
+{
+    width: 17px;
+}
+.nav-middle .search-box
+{
+    border: 0px solid red;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-middle .search-box input
+{
+    border: 0px solid red;
+    width: 550px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img
+{
+    border: 0px solid red;
+    width: 17px;
+    border-left: 0px solid green;
+    height: 17px;
+    position: absolute;
+    margin-left: 520px;
+}
+
+.nav-middle .search-box  .line
+{
+    border: 0px solid red;
+    margin-left: 530px;
+    height: 45px;
+}
+.flex-div
+{
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 
@@ -174,6 +221,25 @@ font-family: 'Roboto Slab', serif;
 {
     width: 600px;
     align-items: center;
+}
+
+/* search Bar */
+.nav-middle .search-box
+{
+    border: 2px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+.nav-middle .search-box  .line
+{
+    border: 0px solid red;
+    margin-left: 255px;
+    height: 45px;
 }
 
     

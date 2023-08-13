@@ -1,0 +1,45 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+#menu ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+    background-color: cyan;
+    border: 1.5px solid whitesmoke;
+    width: 302.2px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: blue;
+    display: block;
+}
+#menu ul li a:hover
+{
+    background-color: rgb(10, 248, 168);
+}
+#menu ul ul
+{
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.5s;
+    top: -600%;
+}
+#menu ul li:hover > ul
+{
+    visibility: visible;
+    top: 100%;
+}
+
