@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Resturant</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="order.css">
+    <link rel="stylesheet" type="text/css" href="order_animation.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="Logo.ico" type="image/ico" size="220x200">
+
+    <script>
+        window.onload=function()
+        {
+            document.getElementById('loader').style.display="none";
+            document.getElementById('content').style.display="block";
+        }
+    </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="jquery-3.6.4.js"></script>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="menu-header">
+        <i class="fa fa-bars"></i>
+
+        </div>
+    <div class="menu-content">
+
+
+ 
+    </div>
+
+    <div id="loader">
+        <img src="">
+    </div>
+
+    <div id="content">
+
+    <!-- code for navigation bar -->
+   <div id= "menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#" class="dropbtn">Menu <i class="fa fa-chevron-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="vegthali.html">Veg Thali</a>
+                    <li><a href="nonvegthali.html">Non Veg Thali</a>
+                        <li><a href="snacks.html">Snacks</a>
+                            <li><a href="fastfood.html">Fast Food</a>
+                                <li><a href="drinks&desserts.html">Drinks & Desserts</a>
+                                    
+            </ul>
+        </li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+   
+</div>
+    </div>
+    </div>
+    
+
+   <!--Code for table-->
+
+
+   <br><br><br><br>
+    <h1 align="center">Enter Order Details</h1>
+    <br><br>
+
+    <div>
+        <form>
+        <center>
+        <table border="0" width="60%">
+        <tr>
+            <td width="20%">Name</td>
+            <td width="40%"><input type="text" placeholder="Name"></td>
+        </tr>
+            <td>Mobile</td>
+            <td><input type="text" placeholder="Mobile"></td>
+        </tr>
+            <td>Email</td>
+            <td><input type="text" placeholder="Email"></td>
+        </tr>
+            <td>Item</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <td>Quantity</td>
+            <td>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </td>
+        </tr>
+
+        <td>Address</td>
+            <td><textarea placeholder="Address"></textarea></td>
+    </tr>
+
+    <td></td>
+            <td><input type="button" value="Submit"></td>
+        </tr>
+
+        </center>
+    </table>
+</form>
+    <br>
+    </div>
+  
+    <!-- Code for footer -->
+    <br>
+    <div class="footer">
+        <div class="footerbox">
+            <b><i>Quick Link</i></b>
+
+                <br><br>
+                Home<br>
+                About<br>
+                Menu<br>
+                Order<br>
+                Contact<br>
+
+        </div>
+
+        <div class="footerbox">
+            <b><i>Menu</i></b>
+
+                <br><br>
+                Veg Thali<br>
+                Non Veg Thali<br>
+                Fast Food<br>
+                Pizaa<br>
+                Pasta<br>
+
+        </div>
+
+        <div class="footerbox">
+            <b><i>Address</i></b>
+
+            <br><br>
+            Batanagar South 24 Pargana<br>
+            Email: cyberresturant106@gmail.com<br>
+            Mobile: 9876543210<br>
+            Time: 6.00 AM to 10.00 PM<br>
+            Contact<br>
+        </div>
+
+        <div class="footerbox">
+            <b><i>Directions</i></b>
+
+            <br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.3183543388927!2d88.22010117517202!3d22.49223577954898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02765321b3ac7b%3A0xcb343879680ba525!2z4Kaf4KeH4KaV4Kao4KeLIOCmh-CmqOCnjeCmoeCmv-Cmr-CmvOCmviDgpqzgpr7gpp_gpr7gpqjgppfgprA!5e0!3m2!1sbn!2sin!4v1682187624856!5m2!1sbn!2sin" width="100%" height="142" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        $('.dropbtn').click(function()
+        {
+            $('.dropdown').toggleClass('display');
+        })
+        $('.dropbtn2').click(function()
+        {
+            $('.dropdown2').toggleClass('display');
+        })
+        $('.fa-bars').click(function()
+        {
+            $('.menu-content').toggle();
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+.top_cat
+{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_cat_product
+{
+    border: 0px solid red;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+}
+
+.top_cat_product:hover
+{
+    transform: scale(1.05);
+}
+
+
+.checked
+{
+    color: gold;
+}
+
+.starr
+{
+    border: 0px solid black;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.title b
+{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+.btn
+{
+    border: 0px solid green;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn input
+{
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: orange;
+    font-size: 17.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn input:hover
+{
+    background-color: green;
+    color: white;
+}
+
+
+#menu ul ul
+{
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.5s;
+    top: -600%;
+}
+#menu ul li:hover > ul
+{
+    visibility: visible;
+    top: 100%;
+}
+
+.menu-header
+{
+    display: none;
+}
+
+
+
+
+@media (max-width: 767px)
+{
+    ul
+    {
+        display: table;
+        width: 100%;
+    }
+    ul li
+    {
+        text-align: left;
+    }
+    .dropdown, .dropdown2
+    {
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        display: none;
+        z-index: 1;
+    }
+    
+    .display
+    {
+        display: block;
+    }
+    .dropdown li:hover .dropdown2
+    {
+    left: 0;
+    }
+    .menu-content
+    {
+        display: none;
+    }
+    .menu-header
+    {
+        display: block;
+        background-color: black;
+        text-align: right;
+        padding: 10px;
+    }
+    .fa-bars
+    {
+        color: white;
+        border: 2px solid white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .top_cat
+{
+    border: 0px solid blue;
+    display: table;
+}
+
+.top_cat_product
+{
+    border: 0px solid red;
+    width: 372px;
+    height: 340px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+}
+    
+}

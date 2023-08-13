@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Order Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="Logo.ico" type="image/ico" size="220x200">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono:ital@1&family=Roboto+Slab&display=swap');
+      </style>
+
+    <script>
+        window.onload=function()
+        {
+            document.getElementById('preloader').style.display="none";
+            document.getElementById('loader').style.display="block";
+        }
+    </script>
+
+<script src="jquery-3.6.4.js"></script>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div id="preloader">
+        <img src="Animation.gif">
+    </div>
+
+    <div id="loader">
+        
+ 
+    
+    <div class="menu-header">
+        <i class="fa fa-bars"></i>
+
+    </div>
+
+      <!-- code for navigation bar -->
+      
+    <div class="menu-content">
+
+        
+    
+        <div id="content">
+
+   <div id= "menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#" class="dropbtn">Menu <i class="fa fa-chevron-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="vegthali.html">Veg Thali</a>
+                    <li><a href="nonvegthali.html">Non Veg Thali</a>
+                        <li><a href="snacks.html">Snacks</a>
+                            <li><a href="fastfood.html">Fast Food</a>
+                                <li><a href="drinks&desserts.html">Drinks & Desserts</a>
+                                    
+            </ul>
+        </li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------Form----------->
+   <div class="one">
+    <div class="pic">
+        <img src="order.png" width="250px"  alt="Order Now">
+    </div>
+    <div class="form">
+    <p>
+        <label for="name">First Name:</label>
+        <br>
+        <input class="two" type="text"required placeholder="Enter Your First Name" size="40">
+        <br>
+        <br>
+        <label for="name1">Last Name:</label>
+        <br>
+        <input class="two" type="text" placeholder="Enter Your Last Name" size="40" >
+        <br>
+        <br>
+        <label for="number">PH No</label>
+        <br>
+        <input class="two" type="number" name="" id="" placeholder="Enter Your Contact Number" size="40" >
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input class="two" type="email" name="" id="" placeholder="Enter Your Email Id" size="40"  >
+        <br>
+        <br>
+        <label for="quantity">Quantity</label>
+        <br>
+        <input class="two" type="number" name="number" min="1" max="30" placeholder="1" size="40">
+        <br>
+        <br>
+        <label for="landmark">Landmark:</label>
+        <br>
+        <input class="two" type="text" name="" id="" placeholder="Mention Nearest Landmark" size="40" >
+        <br>
+        <br>
+        <label for="city">Select City:</label>
+        <br>
+       <select class="two">
+        <option>Enter Your City</option>
+        <optgroup label="West Bengal">
+            <option value="kolkata">Kolkata</option>
+            <option value="medinipur">Medinipur</option>
+            <option value="kharagpur">Kharagpur</option>
+            <option value="purulia">Purulia</option>
+            <option value="bankura">Bankura</option>
+            <option value="bishnupur">Bishnupur</option>
+        </optgroup>
+       </select>
+       <br>
+       <br>
+       <label for="pin">Pin:</label>
+       <br>
+       <input class="two" type="number" placeholder="Enter Your PIN" name="" id="" size="40" >
+       <br>
+       <br>
+       <label for="feedback">Your Feedback:</label>
+       <br>
+       <textarea class="two" name="" id="" placeholder="Write Something about us..." cols="30" rows="1"></textarea>
+       <br>
+       <br>
+       <input class="two" type="submit" value="Order Now" size="40" >
+    </div>
+       </p>
+    </div>
+    </div>
+
+    <script>
+        $('.dropbtn').click(function()
+        {
+            $('.dropdown').toggleClass('display');
+        })
+        $('.dropbtn2').click(function()
+        {
+            $('.dropdown2').toggleClass('display');
+        })
+        $('.fa-bars').click(function()
+        {
+            $('.menu-content').toggle();
+        })
+    
+    </script>
+    
+</body>
+</html>

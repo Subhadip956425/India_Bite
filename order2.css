@@ -1,0 +1,231 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono:ital@1&family=Roboto+Slab&display=swap');
+#menu ul
+{
+    list-style: none;
+}
+h1
+{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+#menu ul li
+{
+    background-color: #111111;
+    border: 1.5px solid whitesmoke;
+    width: 302.2px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#menu ul li a:hover
+{
+    background-color: #575656;
+}
+#menu ul ul
+{
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.5s;
+    top: -600%;
+}
+#menu ul li:hover > ul
+{
+    visibility: visible;
+    top: 100%;
+}
+
+.menu-header
+{
+    display: none;
+}
+
+/* Loader */
+
+#loader
+{
+    display: none;
+}
+
+#preloader
+{
+    border: 0px solid red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 600px;
+}
+
+#preloader img
+{
+    width: 600px;
+}
+
+
+
+
+@media (max-width: 767px)
+{
+    ul
+    {
+        display: table;
+        width: 100%;
+    }
+    ul li
+    {
+        text-align: left;
+    }
+    .dropdown, .dropdown2
+    {
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        display: none;
+        z-index: 1;
+    }
+    
+    .display
+    {
+        display: block;
+    }
+    .dropdown li:hover .dropdown2
+    {
+    left: 0;
+    }
+    .menu-content
+    {
+        display: none;
+    }
+    .menu-header
+    {
+        display: block;
+        background-color: black;
+        text-align: right;
+        padding: 10px;
+    }
+    .fa-bars
+    {
+        color: white;
+        border: 2px solid white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    .top_cat
+{
+    border: 0px solid blue;
+    display: table;
+}
+
+.top_cat_product
+{
+    border: 0px solid red;
+    width: 372px;
+    height: 340px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+}
+
+#loader
+{
+    display: none;
+}
+
+/* Loader */
+#preloader
+{
+    border: 0px solid red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 600px;
+}
+
+#preloader img
+{
+    width: 600px;
+    align-items: center;
+}
+
+    
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=REM&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-size: 18px;
+    color: #f7f7ee;
+   justify-content: center;
+   background-image: url(https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=1380&t=st=1691571442~exp=1691572042~hmac=e7c76657faa702a953874c83f8f24579a555bdbce9ed36881c9496d8d961472b);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: auto;
+   
+}
+.one{
+     text-align: center;
+     text-decoration: none;
+}
+
+.two{
+    border-radius: 18px;
+    height: 30px;
+    transition: all 2s ease-out; 
+    border: 2px solid #f11b1b;
+}
+.two:hover{
+    transform: scale(1.05) ;
+}
+
+.one p
+{
+    /* border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px; */
+    backdrop-filter: blur(30px);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form
+{
+    /* border: 0px solid blue;
+    border: 2px solid; */
+
+}
+
