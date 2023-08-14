@@ -14,18 +14,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono:ital@1&family=Roboto+Slab&display=swap');
       </style>
 
-    <script>
-        window.onload=function()
-        {
-            document.getElementById('preloader').style.display="none";
-            document.getElementById('loader').style.display="block";
-        }
-    </script>
-
 <script src="jquery-3.6.4.js"></script>
 
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -131,8 +121,7 @@
           <h2>Completed</h2>
           <h3>Thanks to reach us...</h3>
           <div class="buttons">
-            <button class="close-btn">Ok, Close</button>
-            <button class="home-btn"><a href="index.html">Home</a></button>
+            <button class="close-btn"><a href="index.html">Ok, Close</a></button>
           </div>
         </div>
       </section>
@@ -141,38 +130,8 @@
     </div>
     </div>
 
-    <script>
-        $('.dropbtn').click(function()
-        {
-            $('.dropdown').toggleClass('display');
-        })
-        $('.dropbtn2').click(function()
-        {
-            $('.dropdown2').toggleClass('display');
-        })
-        $('.fa-bars').click(function()
-        {
-            $('.menu-content').toggle();
-        })
-    
-    </script>
 
-    <!-- message js -->
-
-    <script>
-        const section = document.querySelector("section"),
-          overlay = document.querySelector(".overlay"),
-          showBtn = document.querySelector(".show-modal"),
-          closeBtn = document.querySelector(".close-btn");
-        showBtn.addEventListener("click", () => section.classList.add("active"));
-        overlay.addEventListener("click", () =>
-          section.classList.remove("active")
-        );
-        closeBtn.addEventListener("click", () =>
-          section.classList.remove("active")
-        );
-      </script>
-
+    <script src="function .js"></script>
     
 </body>
 </html>

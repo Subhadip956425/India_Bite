@@ -140,10 +140,6 @@ section.active .modal-box {
   width: 300px;
   margin-top: -300px;
 }
-.section
-{
-  border: 0px solid blue;
-}
 .modal-box i {
   font-size: 70px;
   color: #4070f4;
@@ -179,6 +175,16 @@ section.active .modal-box {
   margin: 0 10px;
 }
 
+.overlay
+{
+  height: 0px;
+}
+
+section
+{
+  height: 0px;
+}
+
 /* Loader */
 
 #loader
@@ -211,7 +217,7 @@ section.active .modal-box {
 {
   .menu-header
   {
-    margin-top: -10px;
+    margin-top: -7px;
   }
     body
     {
@@ -307,6 +313,11 @@ section.active .modal-box {
     align-items: center;
 }
 
+.modal-box
+{
+  height: 0px;
+}
+
 
     
 }
@@ -360,7 +371,7 @@ body
     top: -0.4rem;
     left: 0.5rem;
     font-size: 13px;
-    background-color: rgb(61, 59, 59);
+    background-color: #676262;
 }
 
 .form

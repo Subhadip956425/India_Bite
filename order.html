@@ -14,14 +14,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono:ital@1&family=Roboto+Slab&display=swap');
       </style>
 
-    <script>
-        window.onload=function()
-        {
-            document.getElementById('preloader').style.display="none";
-            document.getElementById('loader').style.display="block";
-        }
-    </script>
-
 <script src="jquery-3.6.4.js"></script>
 
 <!-- Add icon library -->
@@ -72,13 +64,13 @@
     </div>
 
 <!--------Form------->
-
+<div class="one">
 <div class="pic">
     <img src="order1.png" width="250px"  alt="Order Now">
 </div>
-
     <div class="form">
-        <div class="area">
+        <p>
+            <div class="area">
             <input type="text" name=" " placeholder=" " class="textbox">
             <label class="form-label">
                 First Name
@@ -156,45 +148,16 @@
               <h2>Completed</h2>
               <h3>Thanks Order Placed Sucessfully</h3>
               <div class="buttons">
-                <button class="close-btn">Ok, Close</button>
-                <button class="home-btn"><a href="index.html">Home</a></button>
+                <button class="close-btn"><a href="index.html">Ok, Close</a></button>
               </div>
             </div>
           </section>
     </div>
+</p>
+    </div>
     </div>
 
-    <script>
-        $('.dropbtn').click(function()
-        {
-            $('.dropdown').toggleClass('display');
-        })
-        $('.dropbtn2').click(function()
-        {
-            $('.dropdown2').toggleClass('display');
-        })
-        $('.fa-bars').click(function()
-        {
-            $('.menu-content').toggle();
-        })
-    
-    </script>
-
-    <!-- message js -->
-
-    <script>
-        const section = document.querySelector("section"),
-          overlay = document.querySelector(".overlay"),
-          showBtn = document.querySelector(".show-modal"),
-          closeBtn = document.querySelector(".close-btn");
-        showBtn.addEventListener("click", () => section.classList.add("active"));
-        overlay.addEventListener("click", () =>
-          section.classList.remove("active")
-        );
-        closeBtn.addEventListener("click", () =>
-          section.classList.remove("active")
-        );
-      </script>
+    <script src="function .js"></script>
 
 
 </body>
