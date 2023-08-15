@@ -15,7 +15,7 @@
 .menu-content
 {
   border: 0px solid blue;
-  margin-top: -53px;
+  margin-top: -97px;
 }
 #menu ul
 {
@@ -217,7 +217,7 @@ section
 {
   .menu-header
   {
-    margin-top: -7px;
+    margin-top: -26px;
   }
     body
     {
@@ -376,7 +376,7 @@ body
 
 .form
 {
-  height: 575px;
+  height: 530px;
   border-radius: 10px;
   backdrop-filter: blur(20px);
   border: 0px solid blue;

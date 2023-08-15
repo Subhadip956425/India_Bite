@@ -5,6 +5,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono:ital@1&family=Roboto+Slab&display=swap');
+/* Nav Bar*/
 #menu ul
 {
     list-style: none;
@@ -240,7 +241,7 @@ font-family: 'Roboto Slab', serif;
     border: 0px solid red;
     margin-left: 255px;
     height: 45px;
+}  
 }
 
-    
-}
+
